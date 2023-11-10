@@ -1,0 +1,35 @@
+
+/* 头部 */
+.head{
+width:980px;
+height:50px;
+background-color:rgb(34,113,158};
+}
+/* 头部 */
+.body{
+width:980px;
+height:50px;
+background-color:rgb(34,113,158};
+}
+
+/* 创建一个父元素容器 */
+.parent {
+display: flex; /* 设置为弹性盒子 */
+flex-direction: row; /* 水平方向排列 */
+}
+/* 选择需要并排排列的两个ul元素 */
+#first-list,#second-list {
+margin: 0; /* 去除默认外边距 */
+padding: 0; /* 去除默认内边距 */
+list-style: none; /* 去除默认列表样式 */
+}
+/* 可选：指定每个列表项的宽度和高度 */
+#first-list li, #second-list li {
+
+width: 200px;
+height: 300px;
+text-align: center;
+line-height: 30px;
+background: #eee; /* 做个背景显眼点 */
+border: 1px solid #ccc;
+}
