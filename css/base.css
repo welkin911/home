@@ -91,7 +91,22 @@ body{
 	line-height: 1.5em;               /* 段落 */
 	border-radius: 8px;            /* 圆角 */    
 }
-
+#image1 {
+    display:block;
+	
+	width: 25px;
+	border: 0px solid green;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: flex;
+	flex-direction: column;
+	font-family:Arial;                    /* 字体 */
+	font-size:14px;                       /* 字号 */
+	line-height: 1.5em;               /* 段落 */
+	            /* 圆角 */    
+}
 h1 {
 	color: firebrick;
 	text-align: center;
