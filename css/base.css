@@ -1,13 +1,20 @@
 body{
     background-color:#dee0ff;
 }
-
-#shuiping {
+#shuiping1 {
 	display:flex;                        /* div内块水平排列 */
-	border: 0px solid green;
+	border: 1px solid cadetblue;
 	
     width:600px;                          /* 宽度 */
     height: 300px;
+	
+}
+#shuiping2 {
+	display:flex;                        /* div内块水平排列 */
+	border: 1px solid green;
+	
+    width:600px;                          /* 宽度 */
+    height: 400px;
 	
 }
 
