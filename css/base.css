@@ -4,7 +4,7 @@ body{
 #shuiping1 {
 	display:flex;                        /* div内块水平排列 */
 	border: 1px solid cadetblue;
-	background-color:#cbccff;
+	background-color:#818181;             /*#cbccff*/
     width:600px;                          /* 宽度 */
     height: 300px;
 	
@@ -12,6 +12,7 @@ body{
 #shuiping2 {
 	display:flex;                        /* div内块水平排列 */
 	border: 1px solid cadetblue;
+	border-style: dashed;
 	background-color:#6f6f6f;
     width:600px;                          /* 宽度 */
     height: 400px;
@@ -19,10 +20,14 @@ body{
 }
 #shuiping1_2 {
 	display:flex;                        /* div内块水平排列 */
+	border-bottom: 1px solid #8282c2;          /* 下边线参数 */
+	box-shadow: 0px 1px 0px 0px #4a4a6d;        /* 下边线参数 */
+	margin-top: 5px;                           /* 上外边距 */
+	margin-bottom: 5px;                        /* 下外边距 */
 	background-color:#6f6f6f;
 	color: #e8d277;
     width:600px;                          /* 宽度 */
-    height: 50px;
+    height: 30px;
 	
 }
 #navigation {
@@ -91,7 +96,7 @@ body{
 #besicdiv2 {
     display:block;
 	
-	background-color: #cbccff;
+	background-color: #818181;
 	width: 130px;
 	border: 1px solid green;
 	padding: 5px;
