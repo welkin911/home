@@ -1,10 +1,10 @@
 body{
-    background-color:#6f6f6f;
+    background-color:#eae7dc;
 }
 #shuiping1 {
 	display:flex;                        /* div内块水平排列 */
-	border: 1px solid cadetblue;
-	background-color:#818181;             /*#cbccff*/
+	
+	background-color:#eae7dc;             /*#cbccff*/
     width:600px;                          /* 宽度 */
     height: 300px;
 	
@@ -13,7 +13,7 @@ body{
 	display:flex;                        /* div内块水平排列 */
 	border: 1px solid cadetblue;
 	border-style: dashed;
-	background-color:#6f6f6f;
+	background-color:#eae7dc;
     width:600px;                          /* 宽度 */
     height: 400px;
 	
@@ -24,8 +24,8 @@ body{
 	box-shadow: 0px 1px 0px 0px #4a4a6d;        /* 下边线参数 */
 	margin-top: 5px;                           /* 上外边距 */
 	margin-bottom: 5px;                        /* 下外边距 */
-	background-color:#6f6f6f;
-	color: #e8d277;
+	background-color:#eae7dc;
+	color: #e98074;
     width:600px;                          /* 宽度 */
     height: 30px;
 	
@@ -43,25 +43,29 @@ body{
     padding: 0px;                      /* 内边距 */
 }
 #navigation li {
-    border-bottom:1px solid #9c9cff;    /* 添加下划线 */
-	color: #cf9604;
+    border-bottom:1px solid #8e8d8a;    /* 添加下划线 */
+	color: #e85a4f;
 }
 #navigation li a{
-    display:block;                       /* 默认块级元素 */
-    height:1em;                             /* 高度 */
-    padding:5px 5px 5px 0.5em;               /* 内边距 */
+    display:block;                         /* 默认块级元素 */
+    height:1em;                            /* 高度 */
+    padding:5px 5px 5px 0.5em;             /* 内边距 */
     text-decoration:none;
-    border-left:12px solid #151571;        /* 左边的粗边 */
-    border-right:1px solid #151571;        /* 右侧阴影 */
+    border-left:12px solid #8e8d8a;        /* 左边的粗边 */
+    border-right:1px solid #8e8d8a;        /* 右侧阴影 */
 }
-#navigation li a:visited{                        /* 访问完链接 */
-    background-color:#1136c1;                  /* 改变背景色 */
+#navigation li a:link{
+    color: #000000;                          /* 列表链接颜色 */
+}
+
+#navigation li a:visited{                     /* 访问完链接 */
+    background-color:#546df8;                 /* 改变背景色 */
     color:#FFFFFF;                            /* 改变文字颜色 */
 }
 #navigation li a:hover{                    /* 鼠标经过时 */
-    background-color:#002099;            /* 改变背景色 */
-    color:#ffff00;                        /* 改变文字颜色 */
-    border-left:12px solid yellow;        /* 改变边框颜色 */
+    background-color:#e98074;            /* 改变背景色 */
+    color:#e8e6d4;                        /* 改变文字颜色 */
+    border-left:12px solid #e85a4f;        /* 改变边框颜色 */
 }
 
 #besicdiv {
@@ -96,7 +100,8 @@ body{
 #besicdiv2 {
     display:block;
 	
-	background-color: #818181;
+	background-color: #eae7dc;
+	color:#000000;
 	width: 130px;
 	border: 1px solid green;
 	padding: 5px;
@@ -127,7 +132,7 @@ body{
 	            /* 圆角 */    
 }
 h1 {
-	color: #ffaa00;
+	color: #e85a4f;
 	text-align: center;
 	font-size: 1.5rem;
 	font-style: normal;
@@ -135,7 +140,7 @@ h1 {
 	width: 400px;
 }
 p {
-	color: #e8d277;
+	color: #e98074;
 	text-align:left;
 	font-size: 0.9rem;
 	font-style: normal;
