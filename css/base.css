@@ -5,7 +5,7 @@ body{
 	display:flex;                        /* div内块水平排列 */
 	
 	background-color:#eae7dc;             /*#cbccff*/
-    width:600px;                          /* 宽度 */
+    width:700px;                          /* 宽度 */
     height: 300px;
 	
 }
@@ -29,6 +29,17 @@ body{
     width:600px;                          /* 宽度 */
     height: 30px;
 	
+}
+#shuiping3 {
+	display: block;                       /* div内块竖直排列 */
+	width:650px;                          /* 宽度 */
+	height: 300px;
+	border: 1px solid #000000;
+	margin-top: 5px;                           /* 上外边距 */
+	margin-bottom: 5px;                        /* 下外边距 */
+	background-color:#eae7dc;
+	color: #e98074;
+    
 }
 #navigation {
 	
